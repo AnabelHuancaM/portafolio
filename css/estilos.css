@@ -1,0 +1,990 @@
+::selection{
+    background: #8b8bee;
+    color: #fff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: #8c8c96;
+}
+
+strong{
+    color: #5b5bd3;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+header{
+    height: 100vh;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.39);
+    background-blend-mode: multiply;
+}
+
+/*barra nav*/
+ nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid #444;
+ }
+
+nav .logo{
+    padding: 20px;
+    width: 4.5%;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li a{
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+
+}
+
+nav ul li a:hover{
+    color: #c7c7f3;
+}
+
+
+.me-desc{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0;
+    padding-top: 150px;
+}
+
+.me-text{
+    text-align: center;
+    background: #fff;
+    padding: 15px;
+    margin: 0 auto;
+    line-height: 2;
+    width: 40%;
+}
+
+.cv{
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 15px;
+    background-color: #5353da;
+    border: 1px solid #5353da;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.cv:hover{
+    background-color: transparent;
+    color: #5353da;
+    border: 1px solid #5353da;
+}
+
+/*-------------seccion sobre mi*/
+.sobre-mi{
+    background: #fdfdfd;
+    padding: 70px;
+    display: flex;
+}
+
+.sobre-cont{
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 30px;
+    margin: 0 auto;
+    box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.171);
+}
+
+.sobre-text{
+    padding: 10px;
+    line-height: 2;
+    color: #66666B;
+}
+
+.img-me img{
+    width: 100%;
+    padding: 10px;
+}
+
+.sobre-text h2{
+    color: #5b5bd3;
+    text-align: center;
+    margin: 10px;
+}
+
+/*-------------skills/herramientas*/
+.skills-sect{
+    background: #fdfdfd;
+    padding: 50px;
+}
+
+.skills-sect h2{
+    color: #616366;
+    text-align: center;
+    padding: 15px;
+}
+
+.cont-card{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cards-genr{
+    background: #ffffff;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 12%;
+    height: 250px;
+    margin: 30px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 90px 0px rgba(190, 201, 209, 0.171);
+}
+
+.cards-skills{
+    background: #ffffff;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 12%;
+    height: 250px;
+    margin: 30px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 90px 0px rgba(190, 201, 209, 0.171);
+}
+
+.cards-skills:hover{
+    box-shadow: 0px 5px 90px 0px rgba(44, 50, 54, 0.171);
+}
+
+.ic{
+    width: 95%;
+    height: auto;
+}
+
+.cards-genr p {
+    margin-top: 50px;
+}
+
+.cards-genr:hover{
+    box-shadow: 0px 5px 90px 0px rgba(44, 50, 54, 0.171);
+}
+
+.skills-card p{
+    text-transform: uppercase;
+    margin: auto 45px;
+    text-align: center;
+}
+
+/*----------------form academica*/
+.form-acd{
+    background: #fff;
+    padding: 50px;
+}
+
+.form-acd h2{
+    color: #616366;
+    text-align: center;
+}
+
+.forml-cont{
+    width: 85%;
+    margin: 30px auto;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.forml-card{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 15%;
+    height: 320px;
+    margin: 30px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 90px 0px rgba(190, 201, 209, 0.171);
+}
+
+.forml-card:hover{
+    box-shadow: 0px 5px 90px 0px #66667259;
+}
+
+.forml-card p{
+    margin: 0 auto;
+}
+
+.logo-acad{
+    height: 135px;
+}
+
+/*--------------seccion portafolio*/
+
+.porf{
+    background: #fff;
+    padding: 50px;
+}
+
+.porf h2{
+    color: #5b5bd3;
+    text-align: center;
+}
+
+.cont-porf{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.porf-card{
+    display: flex;
+    padding: 30px 20px;
+    background: #b2b2f5;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 30%;
+    margin: 30px 10px;
+    border-radius: 3px;
+}
+
+.porf-card p{
+    color: #444;
+}
+
+.porf-card h6{
+    color: #5353da;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.porf-card img{
+    width: 100%;
+    transition: 0.4s all ease-in-out;
+    border-radius: 5px;
+}
+
+.porf-card img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.btn-ver{
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 5px;
+    background-color: #5353da;
+    border: 1px solid #5353da;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.btn-ver:hover{
+    background-color: #3c3cc9;
+}
+
+/*seccion certificaciones---------*/
+.certific{
+    background: #f1f1fc;
+    padding: 40px;
+}
+
+.certific h2{
+    color: #5b5bd3;
+    text-align: center;
+}
+.cont-certf{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.certf-cards{
+    display: flex;
+    padding: 20px 10px;
+    border: 1px solid #5b5bd3;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 25%;
+    margin: 30px 20px;
+    border-radius: 15px;
+}
+
+.certf-cards:hover{
+    border: 2px solid #8b8bf1;
+    cursor: pointer;
+}
+
+.certf-cards img{
+    width: 100%;
+    transition: 0.4s all ease-in-out;
+}
+
+.certf-cards img:hover{
+    transform: scale(1.3);
+}
+
+/*contactos form*/
+
+.contactos{
+    background: #fdfdfd;
+    padding: 40px;
+}
+
+.contactos h2{
+    color: #616366;
+}
+
+.row{
+    line-height: 145%;
+    width: 70%;
+    margin: 37px auto;
+}
+
+.row h2, p{
+    text-align: center;
+    margin: 15px;
+}
+
+form{
+    padding: 50px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.171);
+    width: 70%;
+}
+
+input [type="text"], input [type="email"], textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #444;
+}
+
+textarea{
+    height: 100%;
+    margin-top: 10px;
+}
+
+label{
+    margin: 20px;
+    line-height: 3;
+}
+
+.btn-enviar{
+    padding: 7px 20px;
+    border: 2px solid #5b5bd3;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 13px;
+    font-size: 17px;
+    background: #5b5bd3;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.btn-enviar:hover{
+    background: transparent;
+    color: #5b5bd3;
+}
+
+/*--------------footer*/
+footer p, h4{
+    color: rgba(255, 255, 255, 0.712);
+}
+.cont{
+    background-color: #7979ec;
+    color: #fff;
+    display: flex;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.315);
+}
+
+.cont-footer{
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+    width: 60%;
+    margin: 50px;
+}
+
+.fa-map-location, .fa-phone{
+    color: #fff;
+    width: 50px;
+    margin: 20px;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social i{
+    margin: 10px;
+    padding: 10px;
+    width: 36px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    color: #fff;
+}
+
+.social i:hover{
+    background: #5353da;
+    cursor: pointer;
+}
+
+.copyright{
+    font-size: 15px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.315);
+    padding: 18px;
+    background: #5b5bd3;
+    margin: 0;
+}
+
+
+/*responsive*/
+@media (max-width: 350px) {
+    header{
+        width: 100%;
+    }
+
+    .me-text{
+        margin: 0 auto;
+    }
+
+    /*sobre mi----------*/
+    .sobre-cont{
+        display: grid;
+        width: 100%;
+    }
+
+    /*---skills----*/
+    .skills-sect{
+        margin: 0;
+        padding: 5px 0; 
+        width: 100%;
+    }
+
+    .cont-card{
+        width: 90%;
+        margin: 10px auto;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .cards-skills{
+        width: 100%;
+        display: flex;
+        padding: 10px 90px;
+        margin: 10px auto;
+    }
+    .cards-skills img{
+        width: 150px;
+    }
+
+    /*---hobbies and herramientas--*/
+    .skills-sect{
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    .cont-card{
+        width: 90%;
+        margin: 10px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .cards-genr{
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+        padding: 10px 90px;
+    }
+
+    .cards-genr img{
+        width: 150px;
+    }
+    
+    /*--form acad--*/
+    .form-acd{
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    .forml-cont{
+        width: 80%;
+        margin: 20px auto;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .forml-card{
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+        padding: 10px 90px;
+    }
+    
+    /*porffolio-----*/
+    .porf{
+        margin: 0;
+        padding: 10px 0;
+    }
+    .cont-porf{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .porf-card{
+        width: 100%;
+        display: flex;
+        padding: 30px 100px;
+    }
+
+    .porf-card p{
+        font-size: 10px; 
+    }
+
+    .porf-card img{
+        width: 150px;
+    }
+    
+    /*certf-------*/
+    .certific{
+        margin: 0;
+        padding: 20px 0;
+    }
+
+    .cont-certf{
+        width: 90%;
+        margin: 20px auto;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .certf-cards{
+        width: 100%;
+        padding: 30px 100px;
+        margin: 10px auto;
+    }
+
+    .certf-cards img{
+        width: 190px;
+    }
+
+    /*contactos form-------*/
+    .contactos{
+        margin: 0;
+        padding: 20px 0;
+    }
+
+    .row{
+        line-height: 15%;
+        width: 100%;
+        margin: 37px auto;
+    }
+    
+    .row h2, p{
+        text-align: center;
+        margin: 5px;
+    }
+    
+    .inp{
+        padding: 2px;
+    }
+    
+    label{
+        margin: 0;
+        line-height: 2.5;
+    }
+    
+    form{
+        width: 100%;
+    }     
+    
+    footer{
+        width: 100%;
+        
+    }
+    
+}
+
+@media (max-width: 768px) {
+    header{
+        width: 100%;
+    }
+
+    nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border-bottom: 1px solid #444;
+    }
+
+    nav .logo{
+        width: 15%;
+        float: left;
+    }
+
+    nav ul{
+        list-style: none;
+        float: right;
+        margin: 0;
+        display: flex;
+    }
+    
+    nav ul li a{
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .me-text{
+        margin: 0 auto;
+    }
+    /*sobre mi----------*/
+    .sobre-cont{
+        display: grid;
+    } 
+    
+    /*---skills----*/
+    .skills-sect{
+        margin: 0;
+        padding: 5px 0; 
+    }
+
+   .cont-card{
+        width: 90%;
+        margin: 20px auto;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .cards-skills{
+        width: 40%;
+        display: flex;
+        margin: 30px auto;
+    }
+
+    /*---hobbies and herramientas--*/
+    .skills-sect{
+        margin: 0;
+        padding: 10px 0; 
+    }
+
+    .cont-card{
+        width: 80%;
+        margin: 20px auto;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .cards-genr{
+        width: 25%;
+        display: flex;
+        margin: 30px auto;
+    }
+
+    /*--form acad--*/
+    .form-acd{
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    .forml-cont{
+        width: 80%;
+        margin: 20px auto;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .forml-card{
+        width: 45%;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    /*porffolio-----*/
+    .porf{
+        margin: 0;
+        padding: 10px 0;
+    }
+    .cont-porf{
+        width: 80%;
+        margin: 20px auto;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .porf-card{
+        width: 100%;
+    }
+
+    /*certf-------*/
+    .certific{
+        margin: 0;
+        padding: 20px 0;
+    }
+
+    .cont-certf{
+        width: 80%;
+        margin: 20px auto;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .certf-cards{
+        width: 100%;
+    }
+    
+    /*contactos form-------*/
+    .contactos{
+        margin: 0;
+        padding: 20px 0;
+    }
+
+    .row{
+        line-height: 145%;
+        width: 70%;
+        margin: 37px auto;
+    }
+    
+    .row h2, p{
+        text-align: center;
+        margin: 15px;
+    }
+
+
+    form{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    header{
+        width: 100%;
+    }
+    nav .logo{
+        width: 14%;
+        float: left;
+    }
+    .me-text{
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    /*sobre mi----------*/
+    .sobre-cont{
+        display: grid;
+    }
+
+    /*---skills----*/
+    .skills-sect{
+        margin: 0;
+        padding: 5px 0; 
+    }
+
+    .cont-card{
+        width: 80%;
+        margin: 20px auto;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .cards-skills{
+        width: 30%;
+        display: flex;
+        margin: 30px auto;
+    }
+    
+    /*---hobbies and herramientas--*/
+    .skills-sect{
+        margin: 0;
+        padding: 10px 0; 
+    }
+
+    .cont-card{
+        width: 80%;
+        margin: 20px auto;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .cards-genr{
+        width: 25%;
+        display: flex;
+        margin: 30px auto;
+    }
+    /*--form acad--*/
+    .form-acd{
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    .forml-cont{
+        width: 90%;
+        margin: 20px auto;
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .forml-card{
+        width: 20%;
+        display: flex;
+        margin: 0 auto;
+    }
+    /*porffolio-----*/
+    .porf{
+        margin: 0;
+        padding: 10px 0;
+    }
+    .cont-porf{
+        width: 90%;
+        margin: 20px auto;
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .porf-card{
+        width: 45%;
+        margin: 20px;
+    }
+
+    /*certf-------*/
+    .certific{
+        margin: 0;
+        padding: 20px 0;
+    }
+
+    .cont-certf{
+        width: 90%;
+        margin: 15px auto;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .certf-cards{
+        width: 42%;
+    }
+
+    /*contactos form-------*/
+    .contactos{
+        margin: 0;
+        padding: 20px 0;
+    }
+
+    .row{
+        line-height: 145%;
+        width: 70%;
+        margin: 37px auto;
+    }
+    
+    .row h2, p{
+        text-align: center;
+        margin: 15px;
+    }
+
+
+    form{
+        width: 100%;
+    }
+}
